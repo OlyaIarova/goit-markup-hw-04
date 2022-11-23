@@ -48,7 +48,6 @@ body {
 a {
   text-decoration: none;
 }
-
 /*---------------------container-------------------*/
 .container {
   width: 1200px;
@@ -257,7 +256,10 @@ a {
 .imege .item-img:nth-child(3n) {
   margin-right: 0px;
 }
-
+.icon-element-item .icon-element{
+   fill: currentColor;
+  fill: #AFB1B8;
+}
 .section-title {
   margin-bottom: 50px;
   color: var(--primary-text-color);
@@ -350,7 +352,10 @@ a {
   fill: var(--primary-link-color);
   background: #2196F3;
 }
-
+.icon-element{
+   fill: currentColor;
+  fill: #AFB1B8;
+}
 /*-----------------Постійні клієнти------------ */
 .icon-nav-customtrs {
   display: flex;
@@ -384,7 +389,10 @@ a {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
-
+.icon-element-item{
+   fill: currentColor;
+  fill: #AFB1B8;
+}
 /*--------------------button--------------------- */
 .button {
   border: 1px solid transparent;
@@ -548,12 +556,6 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 /*-------------------- footer-nav------------------- */
-.icon-footer-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
 .nav-footer {
   display: flex;
   flex-direction: column;
@@ -561,21 +563,6 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
   padding-bottom: 100px;
 }
 
-.icon-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-  color: #FFFFFF;
-  background-color: #FFFFFF1A;
-}
-.icon-item:nth-child(4){
-  margin-right: 0px;
-}
 .title-nav {
   margin: 0px 0px 20px;
   font-weight: 700;
@@ -583,13 +570,42 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
   font-size: 14px;
   line-height: calc(16/14);
 }
+.icon-footer-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+
+.icon-footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  /* background-color: #FFFFFF1A; */
+  background: rgba(255, 255, 255, 0.1);
+}
+.icon-footer:nth-child(4) {
+  margin-right: 0px;
+}
+
+
 
 .icon-footer {
   fill: var(--primary-link-color);
 }
 
-.icon-item:hover,
-.icon-item:focus {
+.icon-footer:hover,
+.icon-footer:focus {
   background-color: #2196F3;
 }
 
