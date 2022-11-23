@@ -542,6 +542,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
 
 .auth-address .items {
   margin-bottom: 12px;
+  width: max-content;
 }
 
 .auth-address .list {
