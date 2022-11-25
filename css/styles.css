@@ -134,11 +134,12 @@ a {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: calc(14 / 16);
   letter-spacing: 0.02em;
+   fill: currentColor;
 }
 
 .auth-nav .list:hover,
